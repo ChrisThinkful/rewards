@@ -1,0 +1,33 @@
+table {
+  border: 1px solid #ccc;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.monthsTable {
+  border: none;
+}
+
+table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+table th,
+table td {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.monthsTable tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.monthsTable tbody tr:hover {
+  background-color: #ddd;
+}
+
+.customer-row {
+  border-bottom: 1px solid #000;
+}
